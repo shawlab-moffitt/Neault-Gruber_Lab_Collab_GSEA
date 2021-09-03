@@ -4,11 +4,13 @@
 
 Gene Set Enrichment Analysis (GSEA) is a computational method which examines a set or multiple sets of genes to determine statistical significance differences between two biological states. These gene sets can be defined by various signature databases, such as MSigDB or can be self defined depending on genes of interest.
 
-**Input files:** when running GSEA in R, one should include a \*.gmt (Gene Matrix Transposed) file and a file containing gene expression data for each sample. The GMT file will contain one gene set per row, columns including the gene set name, an optional description column or filled in 'na', followed by a list of genes (can be unequal). The gene expression data should contain 2 groups with differing biological states with the first column or row names being gene names, followed by columns named by sample containing the expression value for each gene.
-
 ## ssGSEA Overview
 
 As an extension of GSEA, Single Sample Gene Set Enrichment Analysis (ssGSEA), calculates the enrichment scores seperately for each samples and gene set. The results represent if the particular gene set is overall up- or down-regulated for an individual sample.
+
+## Input files
+
+When running GSEA in R, one should include a \*.gmt (Gene Matrix Transposed) file and a file containing gene expression data for each sample. The GMT file will contain one gene set per row, columns including the gene set name, an optional description column or filled in 'na', followed by a list of genes (can be unequal). The gene expression data should contain 2 groups with differing biological states with the first column or row names being gene names, followed by columns named by sample containing the expression value for each gene.
 
 ## Our Analysis
 
