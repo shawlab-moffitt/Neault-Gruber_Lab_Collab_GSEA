@@ -10,7 +10,7 @@ Gene Set Enrichment Analysis (GSEA) is a computational method which examines a s
 
 The expression data for each gene of the phenotypes used in this analysis were ranked by signal-to-noise ratio. The signal-to-noise metric requires at least two catagorical phenotypes with at least three samples for each phenotype. This ratio uses the difference of means by the standard deviation, so the larger the ratio, the larger the difference of means, representing the more distinct the gene expression is in each phenotype.
 
-The 'r GSEA()' function from the ClusterProfiler package is used to integrate the ranked gene expression with the gene sets to determine the enrichment scores and P-values. Enrichment plots can then be generated based off of individual gene sets through the 'r gseaplot2()' function from the enrichplot package.
+The GSEA() function from the ClusterProfiler package is used to integrate the ranked gene expression with the gene sets to determine the enrichment scores and P-values. Enrichment plots can then be generated based off of individual gene sets through the gseaplot2() function from the enrichplot package.
 
 
 
