@@ -1,4 +1,4 @@
-# Neault-Gruber_Lab_Collab_GSEA
+# ssGSEA Shiny
 
 ## GSEA Overview
 
